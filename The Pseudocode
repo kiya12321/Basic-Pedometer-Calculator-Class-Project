@@ -1,0 +1,22 @@
+The Pseudocode
+//Calculate miles walked
+	Set miles_walked =  user_steps / 2000
+
+//Calculate calories lost
+Set cal_lost =  miles_walked * 65
+
+//Define necessary variables 
+Define week_day
+
+//Get day of week
+	Display “Day of the week”
+Input week_day
+
+//Get steps walked
+Display “Number of steps walked?”
+Input user_steps
+
+//Display output data
+Display week_day
+Display miles_walked
+Display cal_lost
