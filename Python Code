@@ -31,5 +31,5 @@ def week_day():
 week_day()
 
 #Print data
-print('%0.0f steps is equal to %0.2f miles' % (steps, miles_walked))
-print('%0.0f steps is equal to %0.2f cal_lost' % (steps, cal_lost))
+print('%0.0f steps is equal to %0.2f miles.' % (steps, miles_walked))
+print('%0.0f steps is equal to %0.2f calories lost.' % (steps, cal_lost))
