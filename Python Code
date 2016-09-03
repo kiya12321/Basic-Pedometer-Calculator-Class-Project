@@ -1,0 +1,33 @@
+#this is a lame pedometer calculator made by Kari Lou Tant
+steps = float(input("Number of steps walked? "))
+conv_fac = 2000
+miles = steps / conv_fac
+cal_lost = conv_fac + 65
+
+
+def week_day():
+    answer = input("What day is it? ")
+    if answer == "sunday" or answer == "Sunday":
+        print("Day: Sunday")
+    elif answer == "monday" or answer == "Monday":
+        print("Day: Monday")
+    elif answer == "tuesday" or answer == "Tuesday":
+        print("Day: Tuesday")
+    elif answer == "wednesday" or answer == "Wednesday":
+        print("Day: Wednesday")
+    elif answer == "thursday" or answer == "Thursday":
+        print("Day: Thursday")
+    elif answer == "friday" or answer == "Friday":
+        print("Day: Friday")
+    elif answer == "saturday" or answer == "Saturday":
+        print('Day: Saturday')
+    else:
+        print("Insufficient data, please try again.")
+        week_day()
+
+
+week_day()
+
+
+print('%0.0f steps is equal to %0.2f miles' % (steps, miles))
+print('%0.0f steps is equal to %0.2f cal_lost' % (steps, cal_lost))
