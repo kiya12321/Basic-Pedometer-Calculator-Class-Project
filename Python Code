@@ -2,8 +2,7 @@
 
 # Step calculation
 steps = float(input("Number of steps walked? "))
-conv_fac = 2000
-miles_walked = steps / conv_fac
+miles_walked = steps / 2000
 cal_lost = miles_walked * 65
 
 #Defind day of week
